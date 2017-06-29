@@ -42,6 +42,9 @@ function compile(watch) {
       rebundle();
     })
   }
+
+  //puse esta linea por que no estaba estrando al bundle.on
+  rebundle();
 }
 
 gulp.task('build', function () { return compile(); });
