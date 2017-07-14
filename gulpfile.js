@@ -30,6 +30,7 @@ function compile(watch) {
     bundle
       .transform(babel, {presets: ["es2015"]})
       .bundle()
+      .on('error', function (err) { console.log(err); this.emit('end') })
       .pipe(souce('index.js'))
       .pipe(rename('app.js'))
       .pipe(gulp.dest('public'));
