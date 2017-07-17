@@ -21,7 +21,7 @@ app.get('/signup', function (req, res) {
 
 app.get('/signin', function (req, res) {
   // res.send('Hola mundo!');
-  res.render('index', { title: 'Platzigram - Sign In' });
+  res.render('index', { title: 'Platzigram - Sign In ' });
 })
 
 app.listen(3000, function(err) {
