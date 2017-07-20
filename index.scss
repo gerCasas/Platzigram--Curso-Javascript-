@@ -85,8 +85,7 @@ $avatar-size: 48px;
 }
 
 .card small.time {
-  line-height: $avatar-size;
-  font-size: 12px!important;
+  line-height: 72px;
 }
 
 .card p {
@@ -104,4 +103,19 @@ $avatar-size: 48px;
 
 .card .fa-heart-o {
   color: $secondary-color;
+}
+
+.card .fa-heart {
+  color: #f44336;
+  display: none;
+}
+
+.card.liked{
+  .fa-heart {
+    display: block;
+  }
+
+  .fa-heart-o {
+    display: none;
+  }
 }

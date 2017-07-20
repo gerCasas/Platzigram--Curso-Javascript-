@@ -6748,8 +6748,7 @@ body {
   color: #125688; }
 
 .card small.time {
-  line-height: 48px;
-  font-size: 12px !important; }
+  line-height: 72px; }
 
 .card p {
   padding: 20px 0; }
@@ -6763,3 +6762,13 @@ body {
 
 .card .fa-heart-o {
   color: #125688; }
+
+.card .fa-heart {
+  color: #f44336;
+  display: none; }
+
+.card.liked .fa-heart {
+  display: block; }
+
+.card.liked .fa-heart-o {
+  display: none; }
