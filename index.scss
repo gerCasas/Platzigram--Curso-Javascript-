@@ -110,7 +110,7 @@ $avatar-size: 48px;
   display: none;
 }
 
-.card.liked{
+.card.liked {
   .fa-heart {
     display: block;
   }
@@ -118,4 +118,11 @@ $avatar-size: 48px;
   .fa-heart-o {
     display: none;
   }
+}
+.no-padding {
+  padding: 0!important;
+}
+
+.button-user-header {
+  width: 100%;
 }

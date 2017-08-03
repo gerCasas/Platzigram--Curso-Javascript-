@@ -6772,3 +6772,9 @@ body {
 
 .card.liked .fa-heart-o {
   display: none; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.button-user-header {
+  width: 100%; }

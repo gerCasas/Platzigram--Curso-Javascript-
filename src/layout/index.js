@@ -12,7 +12,7 @@ module.exports = function layout(content) {
             </div>
 
             <div class="col s2 m1 push-m5">
-              <a href="#" class="btn btn-large btn-flat dropdown-button" data-activates="drop-user">
+              <a href="#" class="btn btn-large btn-flat dropdown-button no-padding button-user-header" data-activates="drop-user">
                 <i class="fa fa-user" aria-hidden="true"></i>
               </a>
               <ul id="drop-user" class="dropdown-content">
